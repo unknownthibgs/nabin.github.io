@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.welcome{
+    height:100vh;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.welcome h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.welcome p{
+    font-size:20px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#333;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#f1f1f1;
+}
+</style>
+
+</head>
+
+<body>
+
+<section class="welcome">
+    <div>
+        <h1>Welcome to My Website</h1>
+        <p>This website is created using GitHub Pages</p>
+        <a href="#" class="btn">Explore</a>
+    </div>
+</section>
+
+</
